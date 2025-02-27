@@ -49,7 +49,4 @@ python main.py path/to/maze.test
 - The A* heuristic function uses the Euclidean distance to the closest goal.  
 - The agent expands nodes without updating existing ones in the frontier.  
 
-## 📌 Submission Instructions
-
-Submit `Agent.py` to Gradescope for evaluation.
 
