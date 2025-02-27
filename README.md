@@ -12,10 +12,9 @@ The algorithms are implemented in `Agent.py`, and they solve mazes defined in `.
 ## 📂 Project Structure
 
 - `Agent.py` – Contains the search algorithms and helper functions.  
-- `Maze.py` – Handles maze parsing and representation (do not modify).  
-- `util.py` – Utility functions (do not modify).  
+- `Maze.py` – Handles maze parsing and representation.
+- `util.py` – Utility functions.
 - `tests/` – Contains `.test` files representing mazes.  
-- `requirements.txt` – List of dependencies (if any).  
 
 ## 🚀 Getting Started
 
@@ -32,8 +31,9 @@ python -m pip install -r requirements.txt
 Run the search algorithms on a maze file:
 
 ```bash
-python main.py path/to/maze.test  
+python LocalTest.py {TESTNUMBER} {SEARCH ALGORITHM}.
 ```
+You can also create your own maze and put them as a test file
 
 ## 🔍 Search Algorithms
 
